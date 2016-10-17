@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
-
+'''
 func1()   #这个会失败的原因是，func1的def代码还未执行
 
 def func1():
