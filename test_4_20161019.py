@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 '''
-题目28	(本题无答案)：1-9全排列
+题目28	(本题无答案)：1-9全排列   递归的理解
 写一个程序，输出1-9的所有全排列。
 
 本文实例讲述了常规方法实现python数组的全排列操作。分享给大家供大家参考。具体分析如下：
@@ -22,7 +22,6 @@ def perm(l):
     for x in p:
       r.append(l[i:i+1]+x)
   return r
-
 
 if __name__=='__main__':
   """ default param is list(1,2,3,4,5) """
